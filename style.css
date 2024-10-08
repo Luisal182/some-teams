@@ -27,6 +27,7 @@ background-color: rgb(191, 190, 211);
 
 }
 
+
 nav {
 
 display: flex;
@@ -110,3 +111,11 @@ nav li a {
     transform: scale(1.05);
 }
 
+footer {
+    background-color: rgb(191, 190, 211);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    font-size: 16px;
+
+}
