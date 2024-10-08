@@ -71,9 +71,10 @@ nav li a {
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 200px; /* Adjust width as needed */
+    width: calc(50% - 30px);/* Adjust width as needed */
     transition: transform 0.2s;
 }
+
 
 
 .team-container img {
@@ -101,6 +102,10 @@ nav li a {
     background-color: #0056b3;
 }
 
+
+.team-container:nth-child(n + 3) {
+    margin-top: 30px; /* Space between the two rows */
+}
 
 footer {
     background-color: rgb(191, 190, 211);
