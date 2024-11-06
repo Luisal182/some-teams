@@ -1,6 +1,8 @@
 SOME-TEAMS
-In this Project we can enjoy and use a Website that offers us someinformation about some of the best football teams in Europe
+In this Project we can enjoy and use a Website that offers us some information about some of the best football teams in Europe.
 
+The project was started with the HTML structure. And then i could continue working
+with the PHP. In the other hand CSS has been used but i consider that i have not finished.  So we could sid this is a web page under remodelation.
 
 Acknowledgements
 Awesome Readme Templates
