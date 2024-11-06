@@ -1,6 +1,7 @@
 <?php require __DIR__ . '/header.php'; ?>
 
-<article class="text">
+<article class="about-text">
+    <p>Created by Luis Arranz during my studies at YRGO</p>
     <p>I was born in Madrid (Spain) on the seventh of december 1980.</p>
     <p>In this city i grew up and did all my studies including the University. </p>
     <p>Since childhood i have been interested in sports and culture,</p>

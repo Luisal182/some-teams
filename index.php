@@ -19,9 +19,6 @@ require __DIR__ . '/data.php';
         <?php endforeach; ?>
     </div>
 
-
-
-
 </article>
 
 <?php require __DIR__ . '/footer.php'; ?>

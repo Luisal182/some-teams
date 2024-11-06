@@ -19,7 +19,7 @@ $section = "this is my home page information and content";
         <h1><?php echo $title; ?></h1>
         <nav>
             <li><a href="about.php">About</a></li>
-            <li><a href="index.php">Start</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php">Start</a></li>
         </nav>
     </header>

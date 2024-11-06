@@ -12,6 +12,8 @@ require __DIR__ . '/data.php';
             foreach ($teams as $key => $teamss);
             ?>
             <li>
+
+
                 <a href=><?php echo $teams['logo']; ?>
                     <?php echo $teamss['city']; ?>
                     <?php echo $teamss['url']; ?>
@@ -25,7 +27,8 @@ require __DIR__ . '/data.php';
 
         </ul>
     </div>
-    
+
+
 
 </article>
 
