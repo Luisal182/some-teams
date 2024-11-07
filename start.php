@@ -9,17 +9,17 @@ require __DIR__ . '/data.php';
     <div>
         <ul>
             <?php
-            foreach ($teams as $key => $teamss);
+            foreach ($teams as $team => $teamdata);
             ?>
             <li>
 
 
-                <a href=><?php echo $teams['logo']; ?>
-                    <?php echo $teamss['city']; ?>
-                    <?php echo $teamss['url']; ?>
-                    <?php echo $teamss['league']; ?>
-                    <?php echo $teamss['uefa-coefficient-ranking']; ?>
-                    <?php echo $teamss['group']; ?></a>
+                <a href=><?php echo $teamdata['logo']; ?>
+                    <?php echo $teamdata['city']; ?>
+                    <?php echo $teamdata['url']; ?>
+                    <?php echo $teamdata['league']; ?>
+                    <?php echo $teamdata['uefa-coefficient-ranking']; ?>
+                    <?php echo $teamdata['group']; ?></a>
             </li>
             <?php T_ENDFOREACH;
 
