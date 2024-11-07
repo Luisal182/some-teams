@@ -62,6 +62,7 @@ nav li a {
 }
 
 nav li a:hover{
+
     color: red;
 
 }
@@ -69,12 +70,13 @@ nav li a:hover{
 
 #container {
     display: flex;
-    
     flex-wrap: wrap; /* Allows wrapping to the next line */
     justify-content: center; /* Centers the items */
-    padding: 20px;
+    padding: 30px;
+
     background-color: #efe9e9;
 }
+
 
 .team-container {
     display: flex;
@@ -82,35 +84,53 @@ nav li a:hover{
     align-items: center;
     margin: 15px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 2cap solid #ccc;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 30px);/* Adjust width as needed */
+    width: 100 px;/* Adjust width as needed    calc(50% - 30px)*/
     transition: transform 0.2s;
+
+
 }
+
+
 
 
 
 .team-container img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 10 px;
+   margin-top: 30px;
+
 }
+
+
 
 .team-container p {
     margin: 5px 0;
     color: #333;
+
+
 }
 
 .team-container a {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 15px;
     background-color: #007BFF;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+margin-bottom: 30px;
+
+
+
 }
 
 
@@ -121,6 +141,8 @@ nav li a:hover{
 
 .team-container:nth-child(n + 3) {
     margin-top: 30px; /* Space between the two rows */
+
+
 }
 
 footer {
@@ -129,6 +151,7 @@ footer {
     padding-top: 40px;
     padding-bottom: 40px ;
    font-size: 20px;
+   
     width: 100%;
     height: 50px;
     border: 3px solid black;
@@ -148,6 +171,16 @@ footer {
     height: 20vh;
 
 }
+
+@media (max-width: 768px) {
+    .team-container {
+      width: calc(100% - 30px);
+    }
+
+  }
+  
+
+
 
 
 
