@@ -107,7 +107,12 @@ nav li a:hover{
     border-radius: 8px;
     margin-bottom: 10 px;
    margin-top: 30px;
+}
 
+.team-info img {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 10px;
 }
 
 
@@ -176,10 +181,47 @@ footer {
     .team-container {
       width: calc(100% - 30px);
     }
-
+ 
   }
-
   
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal-width columns */
+    gap: 20px; /* Adds space between columns and rows */
+    padding: 20px;
+}
+
+.team-info {
+    border: 1px solid #ccc; /* Optional: Border for each team */
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.team-info img {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.team-info p {
+    margin: 5px 0;
+}
+
+.team-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #bfd8f2;
+    text-decoration: none;
+}
+
+.team-info a:hover {
+    text-decoration: underline;
+
+    
+}
+
+
 
 
 
